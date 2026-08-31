@@ -1,0 +1,237 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    .comic-relief-regular {
+        font-family: "Comic Relief", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+
+}
+.links{
+    display: flex;
+    column-gap: 20px;
+}
+.link a{
+    text-decoration: none;
+    color: rgb(15, 12, 46);
+
+}
+.link a:hover{
+    text-decoration: underline;
+    
+}
+.icon{
+    display: none;
+}
+
+.sidenavbar{
+    background-color: rgb(5, 5, 56);
+    color: white;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: -50%;   
+    transition: 2s;
+    z-index: 1;
+}
+.link1 {
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+.link1 a{
+    color: white;
+    text-decoration: none;
+}
+.mark{
+    text-align: right;
+    padding-right: 10px;
+}
+.link1 a:hover{
+    text-decoration: underline;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.service{
+    padding: 30px;
+}
+.s1{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.s2{
+    display: flex;
+    justify-content: space-around;
+}
+.s2 div{
+    background-color: rgb(211, 215, 216);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.newarrival{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px;
+
+}
+.n1{
+    position: relative;
+    flex-basis: 20%;
+}
+.n1 button{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:  rgb(211, 215, 216);
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+
+}
+.news{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+.search{
+    width: 80vw;
+    padding: 10px;
+    border: solid black 2px;
+}
+.news button{
+    background-color:black;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.footer{
+    background-color: rgb(2, 1, 11);
+    color: white;
+    padding: 30px;
+    margin-top: 20px;
+}
+.searchbar{
+    margin: 20px;
+
+}
+.productsearch{
+    width: 80vw;
+    border-radius: 10px;
+    border: solid black 2px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+.productsearch input{
+    border: none;
+    width: 100%;
+}
+.productsearch input:focus{
+    outline: none;
+}
+.products{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+} 
+.productbox{
+    text-align: center;
+    flex-basis: 25%;
+   
+}
+.productbox img{
+    border-radius: 10px;
+}
+.contactus{
+    background-color: rgb(2, 1, 11) ;
+    color: white;
+    width: 70%;
+    margin: 30px;
+    margin-left: 170px;
+    padding: 30px;
+}
+.contactus input{
+    padding: 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+   
+    
+}
+.contactus h1{
+    margin-bottom: 10px;
+}
+.one{
+    padding-bottom: 10px;
+}
+.contactus button{
+    background-color: blue;
+}
+
+
+
+
+@media screen and (max-width:700px){
+    .icon{
+        display: block;
+    }
+    .links{
+        display: none;
+    }
+    .img1{
+        display: none;
+    }
+    .s1{
+        display: none;
+    }
+    .s2{
+        flex-direction: column;
+        
+    }
+    .contactus{
+        width: 50%;
+    }
+}
+
